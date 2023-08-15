@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.14](https://github.com/xyclr/echo-lion/compare/v1.0.13...v1.0.14) (2023-08-15)
+
+**Note:** Version bump only for package @echo-lion/utils
+
+
+
+
+
 ## [1.0.13](https://github.com/xyclr/echo-lion/compare/v1.0.12...v1.0.13) (2023-08-15)
 
 **Note:** Version bump only for package @echo-lion/utils
