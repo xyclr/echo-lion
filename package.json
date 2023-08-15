@@ -1,12 +1,15 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "echo-lion",
+  "private": false,
   "devDependencies": {
     "lerna": "^5.1.8"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "login": "npm login --registry=https://registry.npmjs.org",
     "publish": "lerna publish"
-  }
+  },
+  "version": "1.0.0"
 }
