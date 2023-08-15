@@ -1,6 +1,7 @@
 {
   "name": "echo-lion-test-2",
   "version": "1.0.4",
+  "private": false,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,5 +10,5 @@
   "dependencies": {
     "yarn-module1": "^1.0.2"
   },
-  "gitHead": "f12d6e43cca63a28fb187bfa5f7359dc0541a18b"
+  "gitHead": "1a503a31061ebab7c51bceba321753ee945c8e8d"
 }

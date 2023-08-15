@@ -3,5 +3,6 @@
   "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "f12d6e43cca63a28fb187bfa5f7359dc0541a18b"
+  "private": false,
+  "gitHead": "1a503a31061ebab7c51bceba321753ee945c8e8d"
 }
