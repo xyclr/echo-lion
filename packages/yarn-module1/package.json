@@ -1,6 +1,6 @@
 {
   "name": "@echo-lion/cli",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "index.js",
   "license": "MIT",
   "gitHead": "7d931f7110244f4f93f18a012c32f6a243b3f72d",
