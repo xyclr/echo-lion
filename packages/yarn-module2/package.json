@@ -9,5 +9,8 @@
   "dependencies": {
     "yarn-module1": "^1.0.2"
   },
-  "gitHead": "3d7424703c9b5ed3f1c13fbdf174fd8632022859"
+  "gitHead": "7d931f7110244f4f93f18a012c32f6a243b3f72d",
+  "publishConfig": {
+    "access": "public"
+  }
 }
