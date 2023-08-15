@@ -1,5 +1,5 @@
 {
-  "name": "echo-lion-test-1",
+  "name": "@echo-lion/cli",
   "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",

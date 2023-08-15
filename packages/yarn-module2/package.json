@@ -1,5 +1,5 @@
 {
-  "name": "echo-lion-test-2",
+  "name": "@echo-lion/utils",
   "version": "1.0.5",
   "private": false,
   "main": "index.js",
