@@ -4,5 +4,8 @@
   "devDependencies": {
     "lerna": "^5.1.8"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "publish": "lerna publish"
+  }
 }
