@@ -1,5 +1,3 @@
-
-// yarn-module2/index.js
 const yarnModule1 = require('yarn-module1');
 
 function yarnModule2() {
