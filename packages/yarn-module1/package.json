@@ -1,6 +1,7 @@
 {
-  "name": "yarn-module1",
+  "name": "echo-lion-test-1",
   "version": "1.0.2",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "c50648bb64981962cbafa081ec3cfb5c78168372"
 }
