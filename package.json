@@ -24,7 +24,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run --stream --sort build",
+    "build": "yarn workspaces run build",
     "login": "npm login --registry=https://registry.npmjs.org",
     "publish": "lerna publish"
   },

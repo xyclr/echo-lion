@@ -1,5 +1,5 @@
 {
-  "name": "@echo-lion/core",
+  "name": "core",
   "version": "1.0.16",
   "main": "src/index.js",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@echo-lion/utils": "^1.0.16"
   },
   "devDependencies": {}
 }
