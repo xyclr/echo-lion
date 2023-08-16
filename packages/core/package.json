@@ -5,7 +5,9 @@
   "license": "MIT",
   "gitHead": "4db6e0a19c80229d6e8d2029ccf7e5ff12c020cf",
   "scripts": {
-    "build": "rollup -c rollup.config.js"
+    "build": "run-p build:bundle build:esm",
+    "build:bundle": "rimraf dist && rollup --config",
+    "build:esm": "rimraf esm && tsc -p tsconfig.json"
   },
   "publishConfig": {
     "access": "public"
