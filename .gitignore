@@ -2,6 +2,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,macos,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,macos,node
 .idea/
+.vscode/
 ### macOS ###
 # General
 .DS_Store
