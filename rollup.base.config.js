@@ -1,14 +1,9 @@
 import path, {dirname} from 'path';
-import {fileURLToPath} from 'url'
+import resolve from '@rollup/plugin-node-resolve'; // 处理外部依赖
 import commonjs from '@rollup/plugin-commonjs';
 import alias from '@rollup/plugin-alias';
 import esbuild from 'rollup-plugin-esbuild';
 import { terser } from 'rollup-plugin-terser';
-
-
-const resolve = (p) => {
-    return path.resolve(dirname(fileURLToPath(import.meta.url)), p)
-};
 
 const packageDir = path.resolve(__dirname);
 const name = path.basename(packageDir);
@@ -17,7 +12,7 @@ const packageDirDist = `${packageDir}/dist`;
 export const common = {
     input: `${packageDir}/src/index.ts`,
     output: {
-        name: `HEIMDALLR_${name.toLocaleUpperCase()}`,
+        name: `ECHOLION_${name.toLocaleUpperCase()}`,
         footer: '/* follow me on Github! @xyclr */'
     },
     // external: opts.external,
@@ -41,11 +36,23 @@ export const common = {
                 'src': resolve('src'),
             }
         }),
-        // commonjs(),
+        resolve({
+            preferBuiltins: true
+        }),
+        commonjs(),
         // nodePolyfills(),
         // json(),
         // size()
     ],
+}
+
+export const cjsPack = {
+    ...common,
+    output: {
+        file: `${packageDirDist}/${name}.cjs.js`,
+        format: 'cjs',
+        ...common.output
+    }
 }
 
 export const umdPack = {
