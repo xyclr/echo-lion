@@ -1,5 +1,5 @@
 import { ConsoleTypes, EventTypes } from '@echo-lion/types';
-
+console.log("xxx")
 const jsErrorPlugin = {
     name: 'jsErrorPlugin',
     install(notify) {

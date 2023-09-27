@@ -34,5 +34,9 @@
     "rimraf": "^5.0.1",
     "run-p": "^0.0.0",
     "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://120.78.236.13:8081/repository/npmhosted/"
   }
 }

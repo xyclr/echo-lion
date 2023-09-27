@@ -1,5 +1,5 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "npmClient": "yarn",
   "packages": [
     "packages/*"
@@ -18,7 +18,7 @@
         "**/test/**"
       ],
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org",
+      "registry": "http://120.78.236.13:8081/repository/npmhosted/",
       "conventionalCommits": true
     }
   }
