@@ -1,6 +1,6 @@
 {
   "name": "@echo-lion/core",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "src/index.js",
   "license": "MIT",
   "gitHead": "4db6e0a19c80229d6e8d2029ccf7e5ff12c020cf",
@@ -13,8 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@echo-lion/utils": "^1.0.16",
-    "@echo-lion/types": "^1.0.16"
-  },
-  "devDependencies": {}
+    "@echo-lion/types": "^1.0.17",
+    "@echo-lion/utils": "^1.0.17"
+  }
 }
